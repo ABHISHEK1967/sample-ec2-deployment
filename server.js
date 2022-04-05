@@ -18,10 +18,10 @@ const axios = require("axios").default;
  * Creating an instace of AWS S3 Bucket from the account details
  */
 const s3 = new AWS.S3({
-  accessKeyId: "ASIA4ACA2CZTFK6QJ46S",
-  secretAccessKey: "VjKI2uLXbVIUA/vbbbh//XKoorZnFMRmUAjnlD4E",
+  accessKeyId: "",
+  secretAccessKey: "",
   sessionToken:
-    "FwoGZXIvYXdzEP7//////////wEaDLYHT6h6jZIooEijwSLAASSgsWfTh7dttPzpc+BJ9OpH7D5Uajfzk9JyODmbAoZZ7O7Qo3r7DWU00VbgzrG/9JHzqL99PshjQtk6zobbNK0X+7W7Qsodey1jllagNXqGJtuGHl6iK34eQyDJp5tfrYeqd774M+o/K/wThlM8iu+FUcXoQesuzXO+LiJ2rDuMt5O/RjFV7eGLfZVV+Q4XrkmC3+LVvaGoS4j3hjb+TLoPt23uWZmXR9vryCUGwXTlN4G+uZz5e68CnyGH1AlaxyiSoYaRBjItr2p6c6MEqCYOpslxC5R2/fqM9OYNzwkQ72Y5+EVPRMdYoc48JdydBT30lcf2",
+    "",
 });
 
 /**
