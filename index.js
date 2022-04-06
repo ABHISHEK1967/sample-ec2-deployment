@@ -139,6 +139,6 @@ const uploadFile = async (file, fileContent) => {
   return stored.Location;
 };
 
-app.listen(3000, () => {
-  console.log("listening on port 3000");
+app.listen(8080, () => {
+  console.log("listening on port 8080");
 });
