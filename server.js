@@ -29,7 +29,7 @@ const s3 = new AWS.S3({
  */
 app.use(express.json());
 
-app.listen(80, () => {
+app.listen(8080, () => {
   console.log("Listening on port 80...");
 });
 
